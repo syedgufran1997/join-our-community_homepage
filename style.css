@@ -1,0 +1,197 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+ 
+header{
+    color:rgb(44, 185, 171);
+    font-size: 20px;
+    padding: 20px 80px;
+    margin: 10px 20px;
+    margin-top:40px;
+   letter-spacing: 1px;
+}
+.heading{
+    color: rgb(166, 214, 69);
+    font-size:25px;
+    padding: 10px 80px;
+    margin: 10px 20px;
+    letter-spacing: 1px;
+}
+#top p{
+    color: rgb(192, 189, 189);
+    font-size: 20px;
+    padding: 5px 80px;
+    margin: 5px 20px;
+    letter-spacing: 1px;
+}
+
+/*left*/
+aside.leftside{
+    color: white;
+    background-color:rgb(26, 170, 170);
+    float:left;
+    width:50%;
+    padding:20px 80px ;
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+}
+.leftside h3{
+    font-size: 30px;
+    padding:30px 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.leftside h1{
+    font-size: 50px;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+.leftside span{
+    font-size: 25px;
+    vertical-align:middle;
+    color: rgb(163, 211, 212);
+    padding: 0px 0px;
+    margin-left: 20px;
+}
+.leftside p{
+    color: rgb(181, 236, 231);
+    font-size: 20px;
+    padding:10px 10px;
+    margin-left: 20px;
+}
+.leftside button{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(141, 190, 42);
+    padding: 25px 145px;
+    border-radius: 10px;
+    border-width: 50px;
+    border-style: hidden;
+    margin: 25px 30px;
+}
+
+/*rightside*/
+aside.rightside{
+    color: white;
+    background-color:rgb(86, 206, 206);
+    float:right;
+    width:50%;
+    padding: 20px 20px;
+    margin-top: 50px;
+    letter-spacing: 1.5px;
+}
+
+.rightside h3{
+    font-size: 30px;
+    padding:24px 70px;
+    margin-left: 20px;
+    margin-top:20px ;
+}
+.rightside p{
+    color: rgb(202, 245, 245);
+    font-size: 20px;
+    padding:5px;
+    padding-left:50px;
+    margin-left: 20px;
+}
+.why{
+    margin: 10px;
+}
+#top{
+  height: 50%;
+  width: 100%;
+}
+#bottom{
+    height: 50%;
+    width: 100%;
+}
+
+/*responsive-media queries for tablet*/
+
+@media(max-width: 768px){
+
+ #top{
+     float:none;
+     text-align: left;
+     width: 100%;
+}
+
+aside.leftside{
+    float:left;
+    width: 50%;
+    text-align: left;
+
+}
+.leftside h3{
+    float: left;
+    padding-left:0px ;
+    margin-left: 0px;
+}
+.leftside h1{
+    float: left;
+    padding-left:0px ;
+    margin-left: 0px;
+}
+.leftside span{
+    text-align:left;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 0px;
+    
+
+}
+.leftside p
+{
+text-align:left;
+margin-left: 0px;
+}
+.leftside button{
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 47px;
+    padding: 10px 80px;
+}
+
+aside.rightside
+{
+    float:right;
+    width: 50%;
+    text-align: left;
+}
+.rightside p{
+    padding:9px;
+    padding-left: 0px;
+    margin-left: 0px;
+    text-align: left;
+    white-space: nowrap;
+}
+.why{
+    margin: 52px;
+}
+
+
+/*media queries for mobile*/
+@media(max-width: 420px){
+    #top{
+        float:none;
+        text-align: left;
+        width: 100%;
+   
+   }
+   
+   aside.leftside{
+       float:center;
+       width: 100%;
+       text-align:left;
+   }
+   
+   aside.rightside
+   {
+       float:center;
+       width: 100%;
+       text-align: left;
+       margin:0px 0px;  
+    }
+   }
